@@ -1,0 +1,13 @@
+{>"layouts/master" /}
+
+{<head}
+  <script src="components/platform/platform.js"></script>
+  <link rel="import" href="components/polymer-ui-tabs/polymer-ui-tabs.html">
+{/head}
+
+{<body}
+  <h1>{@pre type="content" key="index.greeting"/}</h1>
+  <polymer-ui-tabs selected="0">
+    <span>One</span><span>Two</span><span>Three</span><span>Four</span><span>Five</span>
+  </polymer-ui-tabs>
+{/body}

@@ -1,2 +1,6 @@
-node_modules
-bower_components
+.DS_Store
+.idea/
+.build/
+node_modules/
+*.iml
+bower_components/
